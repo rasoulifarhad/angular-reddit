@@ -24,14 +24,14 @@ export class ArticleComponent implements OnInit{
   }
 
   voteUp() {
-    this.article.votes += 1;
+    this.article.voteUp();
     // this.votes += 1;
 
     return false;
   }
 
   voteDown() {
-    this.article.votes -= 1;
+    this.article.voteDown();
     // this.votes -= 1;
     return false;
   }
